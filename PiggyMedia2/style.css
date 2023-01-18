@@ -1,0 +1,62 @@
+.navbar {
+    background-color: white;
+    position:fixed;
+    top: 0;
+    width:100%;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background-color: lightpink;
+    color: darkblue;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+#small-piggy {
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.piggy-section {
+    padding: 20px 50px;
+}
+#piggy {
+    color: rgb(236, 137, 154);
+    font-size: 100px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+a.blue {
+    color: darkblue;
+}
+
+#greets ul {
+    list-style-type: none;
+}
+
+.avatar {
+    background-image: url("./images/piggy-removebg-preview.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
